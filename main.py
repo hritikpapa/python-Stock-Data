@@ -8,7 +8,7 @@ API = StockDataApi(IP_ADDRESS, PORT, API_TOKEN)
 def main():
     for company in API.get_companies():
         print(company['name'] + ' - ' + company['market_cap'])
-
+#wow nice project
 
 if __name__ == "__main__":
     main()
